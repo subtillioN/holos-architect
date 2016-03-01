@@ -2,7 +2,7 @@ var assert = require("assert");
 var expect = require("chai").expect;
 var _ = require('lodash');
 
-var plugins_root = "../lib/components/";
+var plugins_root = "../lib/plugins/";
 
 var H = require('../holos')
 ({

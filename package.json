@@ -1,12 +1,32 @@
 {
-  "name": "holos",
-  "description": "",
+  "name": "holos-architect",
   "version": "0.0.1",
-  "author": "",
-  "dependencies": {
-    "architect": "0.1.4"
+  "description": "(sketch) experimental static site generation with architect plugin system",
+  "main": "holos.js",
+  "directories": {
+    "test": "test"
   },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subtillioN/holos-architect.git"
+  },
+  "keywords": [
+    "architect"
+  ],
+  "author": "Joel D Morrison <anpheon.org@gmail.com> (http://spinbitz.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subtillioN/holos-architect/issues"
+  },
+  "homepage": "https://github.com/subtillioN/holos-architect#readme",
   "devDependencies": {
-    "log4js": "^0.6.26"
+    "architect": "^0.1.11",
+    "chai": "^3.5.0",
+    "log4js": "^0.6.32",
+    "rx": "^4.0.8",
+    "shelljs": "^0.6.0"
   }
 }
